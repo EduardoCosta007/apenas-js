@@ -1,12 +1,22 @@
-var count = 0
+var nomee = "eduardo"
+var lastname = "Costa" 
 
-var interval = setInterval(function(){
-    count++
+console.log("seu nome é:" +" " +  nomee + " " +  lastname)
 
-    if(count > 11){
-        alert (count)
-    }
 
-},2000)
+var city = "kureia"
+var estado = "japan"
 
-console.log(interval)
+console.log ("A sua cidade é :"+" " + city  +" " + "É o seu Estado é:" + " " + estado)
+
+ var hello = () => {
+    console.log("hello word")
+ }
+ hello()
+
+ var tudoBem = (tudo) => {
+    console.log(tudo + " " + "bem")
+ }
+
+
+tudoBem("tudo")
